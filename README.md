@@ -1,6 +1,6 @@
 # ZJU-nCov-Hitcarder-Sample
 
-Sample for https://github.com/Long0x0/ZJU-nCov-Hitcarder.
+Sample for https://github.com/gaozeke/ZJU-nCov-Hitcarder.
 
 浙大nCov肺炎健康打卡定时自动脚本
 
