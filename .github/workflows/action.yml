@@ -3,7 +3,7 @@ name: 'ZJU-nCov-Hitcarder Action'
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 22 * * *'
+    - cron: '0 23 * * *'
 
 jobs:
   main:
@@ -19,7 +19,7 @@ jobs:
             serverchan_key: SERVERCHAN_KEY
     steps:
       - name: Working
-        uses: gaozeke/zju-ncov-hitcarder@master
+        uses: yunanask/zju-ncov-hitcarder@master
         with:
           username: ${{ secrets[matrix.username] }}
           password: ${{ secrets[matrix.password] }}
